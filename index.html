@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Елементи з Class Selector
+</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+<style>
+h1{
+	font-family: 'Roboto Mono', monospace;
+}
+/* all with class="highlight" */
+.highlight {
+  background-color: green;
+}
+
+/* all p elements with class="highlight" */
+p.highlight {  
+  font-style: italic;
+}
+
+/* all elements with class 'highlight' as well as with class 'mainpoint'. */
+.mainpoint.highlight {
+  color: red;
+  background-color: black;
+}
+
+.child{
+	width: 200px;
+	height: 100px;
+	background: red;
+	display: inline-block;
+}
+.parent{
+	text-align: center;
+	margin: 10px;
+}
+span.mystyle {
+    font-size: 2em;
+}
+ul.spisok li {
+    line-height: 1.5;
+}
+a:hover{
+	color: red;
+}
+ul.spisok li:first-child {
+    color: red;
+}
+</style>
+</head>
+<body>
+
+<h1 class="highlight">Елементи з Class Selector</h1>
+<p>Еней  був  парубок  моторний І  хлопець  хоть  куди  козак, Удавсь  на  всеє  зле  проворний, Завзятійший  од  всіх  бурлак.  Но  греки,  як  спаливши  Трою,  Зробили  з  неї  скирту  гною</p>
+<p class="highlight">Це P з CLASS="highlight"</p>
+<div class="mainpoint highlight">Це основний пункт всієї статті.
+</div>
+
+<div class="parent">
+	<div class="child"></div>
+	<div class="child"></div>
+</div>
+
+
+<ul class="spisok">
+		<li><a href="images/image2.jpg"><span class="mystyle">Профнастил стеновой ПС8; ПС10; ПС18; ПС20;</span></li>
+		<li><span class="кровельный"><a href="images/image3.jpg">Профнастил кровельный</a></span>: ПК18; ПК20; Н35; Н44; Н57;</li>
+		<li><span class="сайдинг"><a href="images/image5.jpg">Металлосайдинг</a></span>: под сруб; корабельная доска; доска с микрорибером;</li>
+		<li><span class="черепица"><a href="images/image8.jpg">Металлочерепица</a></span>.</li>
+	 </ul>
+
+<ul class="spisok">
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+	<li class="item">vgdgvd</li>
+</ul>
+
+</body>
+</html>
